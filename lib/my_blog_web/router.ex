@@ -16,7 +16,14 @@ defmodule MyBlogWeb.Router do
   scope "/", MyBlogWeb do
     pipe_through :browser
 
+    resources "/users", UserController
+    
     get "/", PageController, :index
+    get "/users", UserController, :index
+    get "/users/:id", UserController, :show
+    get "/users/:new", UserController, :new
+    resources "/posts", PostController  
+    resources "/comments", CommentController
   end
 
   # Other scopes may use custom stacks.
