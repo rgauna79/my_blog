@@ -15,5 +15,6 @@ defmodule MyBlog.Accounts.User do
     user
     |> cast(attrs, [:f_name, :l_name, :password_hash])
     |> validate_required([:f_name, :l_name, :password_hash])
+    |> validate_length(:f_name, min: 4)
   end
 end
