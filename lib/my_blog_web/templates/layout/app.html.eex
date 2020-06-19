@@ -4,21 +4,18 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>MyBlog · Phoenix Framework</title>
+    <title>MyBlog</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
   </head>
   <body>
-    <header>
-      <section class="container">
-        <nav role="navigation">
-          <ul>
-            <li><a href="https://hexdocs.pm/phoenix/overview.html">Get Started</a></li>
-          </ul>
-        </nav>
-        <a href="http://phoenixframework.org/" class="phx-logo">
-          <img src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
-        </a>
-      </section>
+    <header >
+      <div style="color:white;display:inline-block;text-align:center;background-color:#f00202;width:78%;" class="">
+        <h1>My Blog</h1>
+      </div>
+      <div style="display:inline-block;width:20%;" class="">
+        <img style="width:400px;" src="<%= Routes.static_path(@conn, "/images/phoenix.png") %>" alt="Phoenix Framework Logo"/>
+      </div>
+<p style="background-color:#439fe0;text-align:right;">Welcome to my Blog. Roberto Gauna</p>
     </header>
     <main role="main" class="container">
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>

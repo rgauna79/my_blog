@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :my_blog, MyBlog.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "rjg12779",
   database: "my_blog_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
