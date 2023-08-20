@@ -71,14 +71,37 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./css/app.css":
+/*!*********************!*\
+  !*** ./css/app.css ***!
+  \*********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./css/app.css?");
+
+/***/ }),
+
 /***/ "./js/app.js":
 /*!*******************!*\
   !*** ./js/app.js ***!
   \*******************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/app.css */ \"./css/app.css\");\n/* harmony import */ var _css_app_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_app_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var phoenix_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! phoenix_html */ \"./node_modules/phoenix_html\");\n/* harmony import */ var phoenix_html__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(phoenix_html__WEBPACK_IMPORTED_MODULE_1__);\n// We need to import the CSS so that webpack will load it.\n// The MiniCssExtractPlugin is used to separate it out into\n// its own CSS file.\n // webpack automatically bundles all modules in your\n// entry points. Those entry points can be configured\n// in \"webpack.config.js\".\n//\n// Import dependencies\n//\n\n // Import local files\n//\n// Local files can be imported directly using relative paths, for example:\n// import socket from \"./socket\"\n\n//# sourceURL=webpack:///./js/app.js?");
+
+/***/ }),
+
+/***/ "./node_modules/phoenix_html":
+/*!***********************************!*\
+  !*** ./node_modules/phoenix_html ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed: Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No \\\"exports\\\" main resolved in c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\helper-compilation-targets\\\\package.json\\n    at applyExports (internal/modules/cjs/loader.js:497:9)\\n    at resolveExports (internal/modules/cjs/loader.js:513:23)\\n    at Function.Module._findPath (internal/modules/cjs/loader.js:641:31)\\n    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1016:27)\\n    at Function.Module._load (internal/modules/cjs/loader.js:898:27)\\n    at Module.require (internal/modules/cjs/loader.js:1089:19)\\n    at require (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\preset-env\\\\lib\\\\debug.js:8:33)\\n    at Module._compile (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)\\n    at Module.load (internal/modules/cjs/loader.js:1049:32)\\n    at Function.Module._load (internal/modules/cjs/loader.js:937:14)\\n    at Module.require (internal/modules/cjs/loader.js:1089:19)\\n    at require (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at Object.<anonymous> (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\preset-env\\\\lib\\\\index.js:11:14)\\n    at Module._compile (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:192:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)\\n    at Module.load (internal/modules/cjs/loader.js:1049:32)\\n    at Function.Module._load (internal/modules/cjs/loader.js:937:14)\\n    at Module.require (internal/modules/cjs/loader.js:1089:19)\\n    at require (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\v8-compile-cache\\\\v8-compile-cache.js:161:20)\\n    at requireModule (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\files\\\\plugins.js:165:12)\\n    at loadPreset (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\files\\\\plugins.js:83:17)\\n    at createDescriptor (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-descriptors.js:154:9)\\n    at c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-descriptors.js:109:50\\n    at Array.map (<anonymous>)\\n    at createDescriptors (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-descriptors.js:109:29)\\n    at createPresetDescriptors (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-descriptors.js:101:10)\\n    at presets (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-descriptors.js:47:19)\\n    at mergeChainOpts (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-chain.js:320:26)\\n    at c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-chain.js:283:7\\n    at Generator.next (<anonymous>)\\n    at buildRootChain (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\config-chain.js:120:29)\\n    at buildRootChain.next (<anonymous>)\\n    at loadPrivatePartialConfig (c:\\\\cursos\\\\github\\\\my_blog\\\\assets\\\\node_modules\\\\@babel\\\\core\\\\lib\\\\config\\\\partial.js:95:62)\\n    at loadPrivatePartialConfig.next (<anonymous>)\");\n\n//# sourceURL=webpack:///./js/app.js?");
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type.\\n| ../../deps/phoenix_html\");\n\n//# sourceURL=webpack:///./node_modules/phoenix_html?");
 
 /***/ }),
 

@@ -3,17 +3,17 @@
 <ul>
 
   <li>
-    <strong>F name:</strong>
+    <strong>Fist Name:</strong>
     <%= @user.f_name %>
   </li>
 
   <li>
-    <strong>L name:</strong>
+    <strong>Last name:</strong>
     <%= @user.l_name %>
   </li>
 
   <li>
-    <strong>Password hash:</strong>
+    <strong>Password:</strong>
     <%= @user.password_hash %>
   </li>
 
